@@ -1,12 +1,49 @@
-# React + Vite
+# Yifei Liu Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application Instructions：
 
-Currently, two official plugins are available:
+## Features
+- Interactive MetaBalls animated background
+- Responsive, clean UI
+- Easy to customize
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### 1. Clone the repository
+```bash
+git clone https://github.com/YifeiL1122/PortfolioWeb.git
+cd PortfolioWeb
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+Then open the local address shown in the terminal (e.g. http://localhost:5173) in your browser.
+
+### 4. Build for production
+```bash
+npm run build
+```
+The output will be in the `dist` folder.
+
+### 5. Preview the production build locally
+```bash
+npm run preview
+```
+
+## Deployment
+You can deploy the `dist` folder to any static hosting service, such as Vercel, Netlify, GitHub Pages, etc.
+
+## Customization
+- Edit `src/App.jsx` to change the homepage content and layout.
+- Edit `src/MetaBalls.jsx` and its props in `App.jsx` to customize the animation.
+- Styles can be adjusted using Tailwind CSS classes or custom CSS.
+
+## License
+MIT 
