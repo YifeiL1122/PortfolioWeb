@@ -1,11 +1,12 @@
 # Yifei Liu Portfolio
 
-Application Instructions：
 
-## Features
-- Interactive MetaBalls animated background
-- Responsive, clean UI
-- Easy to customize
+
+## Requirements
+- **Node.js** (version 18 or higher recommended)
+- **npm** (comes with Node.js)
+- **Git** (for cloning the repository)
+- **Modern browser** (Chrome, Edge, Firefox, Safari, etc.)
 
 ## Getting Started
 
